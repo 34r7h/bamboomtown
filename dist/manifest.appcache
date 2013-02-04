@@ -1,0 +1,39 @@
+CACHE MANIFEST
+
+# Time: Sun Feb 03 2013 21:06:44 GMT-0800 (PST)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/#/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
+
+CACHE:
+assets/img/board-ph.png
+assets/img/buy.jpg
+assets/img/ski-ph.png
+assets/img/trust.png
+http://localhost:3501/assets/img/bbt.jpg
+http://localhost:3501/img/glyphicons-halflings-white.png
+http://localhost:3501/img/glyphicons-halflings.png
+http://www.boomtownsports.com/wp-content/uploads/2011/02/nirvana_board_newi.jpg
+http://www.google-analytics.com/ga.js
+https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js
+scripts/abbda3d3.scripts.js
+scripts/vendor/d10639ae.angular.js
+styles/825f81fc.main.css
+
+NETWORK:
+*
