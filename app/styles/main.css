@@ -1,0 +1,317 @@
+@font-face {
+font-family: 'sloppy';
+src: url('/fonts/GlazKrak.ttf') format('truetype');
+}
+h1.logo, .ullr h3, .valhalla h3, .nirvana h3 {font-family: "sloppy",sans-serif;}
+
+body {background: url(/assets/img/bbt.jpg) fixed;}
+.app {margin:0 5%; padding:0%;}
+/*
+* {font-family: 'Capriola', sans-serif;}
+h1.logo, .ullr h3, .valhalla h3, .nirvana h3 {font-family: 'Trade Winds', cursive; 
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;
+    text-shadow: 0 0 0 rgba(0,0,0,0);
+
+}
+.skis, .boards, .sidebar nav ul a li {font-family: 'Capriola', sans-serif;}
+
+
+h1.logo, .ullr h3, .valhalla h3, .nirvana h3 {font-family: "uppercut-angle",sans-serif;}*/
+ul,h2,h1 {margin: 0; padding: 0;}
+a {color:rgba(73,42,39,1); text-shadow: .2em .1em 0em rgba(255, 255, 255, 1); text-decoration: none;}
+
+h1.logo .char1 {
+vertical-align: top;
+margin-left: 0.049em;
+display: inline-block;
+position: relative;
+top: -0.268em;
+-webkit-transform: rotate(-10deg);
+-moz-transform: rotate(-10deg);
+-ms-transform: rotate(-10deg);
+-o-transform: rotate(-10deg);
+transform: rotate(-10deg);
+font-size: 133%;
+}
+
+h1.logo .char2 {
+vertical-align: top;
+margin-left: -0.195em;
+display: inline-block;
+position: relative;
+top: 0.244em;
+font-size: 84%;
+}
+
+h1.logo .char3 {
+vertical-align: top;
+margin-left: -0.098em;
+display: inline-block;
+position: relative;
+top: 0.22em;
+font-size: 80%;
+}
+
+h1.logo .char4 {
+vertical-align: top;
+margin-left: 0.073em;
+display: inline-block;
+position: relative;
+top: -0.024em;
+}
+
+h1.logo .char5 {
+vertical-align: top;
+margin-left: -0.098em;
+display: inline-block;
+position: relative;
+top: 0.171em;
+font-size: 81%;
+}
+
+h1.logo .char6 {
+vertical-align: top;
+margin-left: -0.073em;
+display: inline-block;
+position: relative;
+top: 0.073em;
+font-size: 93%;
+}
+
+h1.logo .char7 {
+vertical-align: top;
+margin-left: -0.098em;
+display: inline-block;
+position: relative;
+top: 0.098em;
+font-size: 90%;
+}
+
+h1.logo .char8 {
+vertical-align: top;
+margin-left: 0.049em;
+display: inline-block;
+position: relative;
+top: -0.317em;
+font-size: 115%;
+}
+
+h1.logo .char9 {
+vertical-align: top;
+margin-left: -0.341em;
+display: inline-block;
+position: relative;
+top: 0.171em;
+font-size: 90%;
+}
+
+h1.logo .char10 {
+vertical-align: top;
+margin-left: -0.122em;
+display: inline-block;
+position: relative;
+top: 0.171em;
+font-size: 81%;
+}
+
+h1.logo .char11 {
+vertical-align: top;
+margin-left: -0.073em;
+display: inline-block;
+position: relative;
+top: 0.171em;
+-webkit-transform: rotate(13deg);
+-moz-transform: rotate(13deg);
+-ms-transform: rotate(13deg);
+-o-transform: rotate(13deg);
+transform: rotate(13deg);
+font-size: 89%;
+}
+
+
+
+
+
+@media only screen and (max-width: 479px) {
+	/* Wide mobile (480px+) styles go here */
+	.app {margin:0 2%; padding:2%;}
+	.header {width:100%;}
+
+	h1.logo {width:100%;}
+	.desc {max-width:100%;}
+	.desc h2 {font-size: 1em; line-height: 1em; margin: 0 0 0em;}
+
+	.sidebar {float:left;width:100%; clear:both; margin: 1em 0;}
+	nav li {display: inline; list-style-type: none; background: rgba(240,240,240,0.5); margin-bottom: 0%; border-radius: .25em;padding: 0% 2%;}
+	.menu {margin-left: 0%; font-size: .78em}
+	#about, #reviews, #sizing, #nav-contact, #media {clear: both; padding: 2%; width:100%; background:rgba(200,200,200,0.8); position: static; overflow: visible; }
+
+
+	#skis {clear:both; width:100%; background:rgba(55,169,220,0.6); max-width:100%; margin-right:2.5%; float: left;}
+	#stock {width: 100%; float: left; margin-bottom: 40px; color:#fff; overflow: visible;}
+	#boards {float:left; width:100%; background:rgba(33,88,22,0.6); max-width:100%; clear: both;}
+
+	.skis {font-size: 2em;width:20%; min-width:100px; float:left; padding: 4% 2% 0;}
+	.skis-desc{padding: 4% 2% 0;}
+
+	.ullr img, .valhalla img {float:left; margin-right:4%; width:auto;}
+	img.stock-images {float:left; margin-right:4%;}
+
+	.boards {width:20%; min-width:100px; float:left; padding: 4% 2% 0;}
+	.board-desc{padding: 4% 2% 0;}
+	.nirvana img {float:left; margin-right:4%;}
+
+	.ullr, .valhalla {clear: both; width:96%; float:left; background:rgba(73,42,39,0.6); padding:2%; }
+	.nirvana {background:rgba(73,42,39,0.6); clear: both; padding:2%; width: 96%;float:left; }
+
+	footer {max-width:100%; clear:both; height:100px;}
+
+	#contact {width:100%; float:left; height:100px;}
+	#testimonials {width:100%; float:left; height:100px;}
+	#trust {width:100%; float:right; height:100px;}
+}
+
+
+
+
+
+@media only screen and (min-width: 480px) {
+	/* Wide mobile (480px+) styles go here */
+	.header {width:100%; float:right;}
+
+	h1.logo {width:100%; float:left;}
+	.desc {float:right; width:100%;}
+	.desc h2 {font-size: 1em; line-height: 1em; margin: 0 0 0em;}
+
+	.sidebar{float:left;width:100%; margin-right:2%; clear:both; margin: 1em 0;}
+	nav li {display: inline; list-style-type: none; background: rgba(240,240,240,0.5); margin-bottom: 0%; border-radius: .25em;padding: 0% 2%;}
+	.menu {margin-left: 0%; font-size: .9em}
+	#about, #reviews, #sizing, #nav-contact, #media {clear: both; height:auto; padding: 2%; width:96%; background:rgba(200,200,200,0.8); position: static; overflow: visible; }
+
+
+	#skis {clear:both;width:100%; background:rgba(55,169,220,0.6); max-width:100%; float: left;}
+	#stock {width: 100%; float: left; margin-bottom: 40px; color:#fff;}
+	#boards {width:100%; background:rgba(33,88,22,0.6); clear:both ;max-width:100%; float: left;  margin: 1em 0;}
+
+	.skis {width:20%; min-width:100px; float:left; padding: 4% 2% 0;}
+	.skis-desc{padding: 4% 2% 0;}
+
+	.ullr img, .valhalla img {float:left; margin-right:4%; width:auto;}
+	img.stock-images {float:left; margin-right:4%;}
+
+	.boards {width:20%; min-width:100px; float:left; padding: 4% 2% 0;}
+	.board-desc{padding: 4% 2% 0;}
+	.nirvana img {float:left; margin-right:4%;}
+
+	.ullr, .valhalla {width:96%; float:left; background:rgba(73,42,39,0.6); padding:2%; margin-right:2%; margin-bottom: 1em}
+	.nirvana {background:rgba(73,42,39,0.6);clear: both; padding:2%; width: 96%;float:left;}
+
+	footer {max-width:100%; margin-left:0%; padding:0%;}
+
+	#contact {width:100%; float:left; }
+	#testimonials {width:100%; float:left; }
+	#trust {width:100%;float:right; }
+}
+
+
+
+@media only screen and (min-width: 768px) { 
+	/* Tablets/netbooks (768px+) styles go here */
+	.header {width:80%; float:right;}
+
+	h1.logo {width:100%; float:left;}
+	.desc {float:right; width:100%; vertical-align: middle;}
+	.desc h2 {font-size: 1em; line-height: 1em; margin: 0 0 0em;}
+
+	.sidebar{float:left; min-width:100px; width:18%; height:600px; margin-right:2%; clear:both;}
+	nav { position:fixed;}
+	nav ul {margin:none;}
+	nav li {display: block; list-style-type: none; background: rgba(240,240,240,0.5); margin-bottom: 10%; border-radius: .25em;padding: 0% 15%;}
+	.menu {font-size: 1.2em; margin: 0 0.8em 0 0.4em;}
+	#about, #reviews, #sizing, #nav-contact, #media {clear:none; padding: 5%; width:70%; background:rgba(200,200,200,0.8); position: relative; z-index:6; overflow: visible; float: right; }
+
+
+	#skis {clear:both;float:left; width:100%; background:rgba(55,169,220,0.6); height:600px;max-width:100%; margin-right:2.5%;}
+	#stock {width: 80%; float: right; margin-bottom: 40px; color:#fff;}
+	#boards {float:left; width:100%; background:rgba(33,88,22,0.6); height:600px;max-width:100%;margin-top: 1em;}
+
+	.skis {width:20%; min-width:100px; float:left; padding: 4% 2% 0;}
+	.skis-desc{padding: 4% 2% 0;}
+
+	.ullr img, .valhalla img {float:left; margin-right:4%; width:auto;}
+	img.stock-images {float:left; margin-right:4%;}
+
+	.boards {width:20%; min-width:100px; float:left; padding: 4% 2% 0;}
+	.board-desc{padding: 4% 2% 0;}
+	.nirvana img {float:left; margin-right:4%;}
+
+	.ullr {margin-left: 2%; clear: both;}
+	.ullr, .valhalla {width:43%; float:left; background:rgba(73,42,39,0.6); padding:2%; margin-right:2%;}
+	.nirvana {background:rgba(73,42,39,0.6);clear: both; padding:3%; margin-left:3%; margin-right:3%; width: 88%;float:left;}
+
+	footer {max-width:100%; clear:both; margin-left:20%; padding:0;}
+
+	#contact {width:30%; margin-right:3.3333333333%; float:left; }
+	#testimonials {width:30%; float:right; }
+	#trust {width:100%; float:right; }
+}
+
+
+
+
+
+/* Will be compiled down to a single stylesheet with your sass files */
+@media only screen and (min-width: 1024px) { 
+	/* Desktops (1024px+) styles go here */
+
+.header {width:80%; float:right;}
+
+h1.logo {width:50%; float:left; font-size: 2.6em; margin: 3% 0 0;}
+.desc {text-align:right; float:right; width:50%; vertical-align: middle; color:rgba(84, 88, 93, 0.95);}
+.desc h2 {font-size: 1.2em; line-height: 2.4em; margin: 1em 0 0;}
+.desc h3 {font-size: 1em; line-height: 0em; margin: 0 0 0em;}
+
+.sidebar{float:left; min-width:100px; width:18%; height:600px; margin-right:2%; clear:both;}
+nav { position:fixed;}
+nav li {display: block; list-style-type: none; background: rgba(240,240,240,0.5); margin-bottom: 10%; border-radius: .25em;padding: 0% 15%;}
+.menu {font-size: 1.6em; margin: 0 0.8em 0 0.4em; text-decoration: none;}
+#about, #reviews, #sizing, #nav-contact, #media {clear:none;padding: 5%; width:62%; background:rgba(230,230,230,0.9); position: absolute; top:124px; left:23%; z-index:6; overflow: visible; float: right; height:auto; box-shadow: 0px 3px 10px rgba(84, 88, 93, 0.95);}
+
+
+#skis {clear:none;float:left; width:59.5%; background:rgba(55,169,220,0.6);max-width:100%; margin-right:2.5%;}
+#stock {width: 80%; float: left; margin-bottom: 40px; color:#fff;}
+#boards {clear:none; float:left; width:38%; background:rgba(33,88,22,0.6); max-width:100%;margin-top: -20px;}
+
+.skis {width:auto; min-width:0; float:left; padding: 0% 2%;}
+.skis-desc{padding: 1% 2% 0 0;}
+
+.ullr img, .valhalla img {float:left; margin-right:4%; width:auto;}
+img.stock-images {float:left; margin-right:4%;}
+
+.boards h2 {width:auto; min-width:0; float:left; padding: 0% 2%;}
+.board-desc {padding: 1% 2% 0;}
+.nirvana img {float:left; margin-right:4%;}
+
+.ullr {margin-left: 2%; clear: both;}
+.ullr h3, .valhalla h3, .nirvana h3 {font-size: 3em; line-height: 0; margin: 10% 0;}
+.ullr, .valhalla {width:43%; float:left; background:rgba(73,42,39,0.6); padding:2%; margin-right:2%;}
+.nirvana {background:rgba(73,42,39,0.6);clear: both; padding:3%; margin-left:3%; margin-right:3%; width: 88%;float:left;}
+
+footer {max-width:100%; clear:both; height:100px; margin-left:20%; padding: 0 5% 5%; color:rgba(84, 88, 93, 0.95);}
+
+#contact {width:30%; float:left; margin-right: 26px;height:100px;}
+#testimonials {width:30%; float:left; height:100px;}
+#trust {width:20%;max-width:100%; float:right; height:100px;}
+
+
+}
+
+
+.wf-loading .blog-title,
+  .wf-loading .post-title {
+    /* Hide the blog title and post titles while web fonts are loading */
+    visibility: hidden;
+  }
+
